@@ -16,7 +16,7 @@ public class TestBase {
     protected Faker faker;
     protected SoftAssert softAssert;
 
-    
+
     @BeforeMethod
     public void setup(){
         WebDriverManager.chromedriver().setup();
